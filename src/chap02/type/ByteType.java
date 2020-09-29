@@ -21,11 +21,29 @@ public class ByteType {
 		// 2 : 0000 0010
 		//   :
 		// 127 : 0111 1111 양수로 표현할 수 있는 가장 큰 수
+		
 		// 앞자리 0 -> 0또는 양수
 		// 앞자리 1 -> 음수
 		
 		// +1
 		
 		// -128	: 1000 0000
+
+		
+		byte byteValue;
+		
+		byteValue = 0;
+		
+		byteValue = 0;
+		System.out.println(byteValue);
+		
+		byteValue = 127;
+		System.out.println(byteValue);
+		
+		byteValue = 128;
+		
+		byteVAlue++;
+		System.out.println(byteValue);
+		
 	}
 }
