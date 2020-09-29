@@ -40,9 +40,9 @@ public class ByteType {
 		byteValue = 127;
 		System.out.println(byteValue);
 		
-		byteValue = 128;
+//		byteValue = 128;
 		
-		byteVAlue++;
+		byteValue++;
 		System.out.println(byteValue);
 		
 	}
