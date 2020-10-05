@@ -11,6 +11,8 @@ public class ShortType {
 //		shortValue1 = 32768; x
 		shortValue1 = -32768;
 		System.out.println(shortValue1);
+		
+		
 	}
 
 }
