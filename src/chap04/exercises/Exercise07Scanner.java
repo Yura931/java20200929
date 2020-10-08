@@ -4,9 +4,8 @@ import java.util.Scanner;
 
 public class Exercise07Scanner {
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("입력");
+		/*System.out.println("입력");
 		String line = scanner.nextLine();
 		
 		System.out.println("출력");
@@ -15,7 +14,7 @@ public class Exercise07Scanner {
 		
 		int num = Integer.valueOf(line);
 		int i = num * 2;
-		System.out.println(i);
+		System.out.println(i);*/
 		
 	}
 }
