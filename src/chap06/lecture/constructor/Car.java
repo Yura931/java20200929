@@ -9,7 +9,7 @@ public class Car {
 	// 	 실행코드;
 	//}
 	public Car() {
-		System.out.println("생성자 실행됨");
+		System.out.println("생성자 실행됨"); //statement들을 가질 수 있음, method같은 것
 		name = "kia";
 		price = 500;
 	}
