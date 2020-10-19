@@ -8,8 +8,8 @@ public class RemoteControlExample {
 		rc = new Television();
 		rc = new Audio();
 		
-		rc.TurnOn();
-		rc.TurnOff();
+		rc.turnOn();
+		rc.turnOff();
 		rc.setVolume(3);
 		
 		rc.setMute(true);

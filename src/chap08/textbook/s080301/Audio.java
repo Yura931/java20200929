@@ -7,11 +7,11 @@ public class Audio implements RemoteControl {
 	private int volume;
 	
 	//turnOn() 추상 메소드의 실체 메소드
-	public void TurnOn() {
+	public void turnOn() {
 		System.out.println("Audio를 켭니다.");
 	}
 	//turnOff() 추상 메소드의 실체 메소드
-	public void TurnOff() {
+	public void turnOff() {
 		System.out.println("Audio를 끕니다.");
 	}
 	//setVoulume() 추상 메소드의 실체 메소드

@@ -6,8 +6,8 @@ public interface RemoteControl {
 	public int MIN_VOLUME = 0;
 	
 	// 추상 메소드
-	public void TurnOn(); // public abstract 생략 가능
-	public void TurnOff();
+	public void turnOn(); // public abstract 생략 가능
+	public void turnOff();
 	public void setVolume(int volume);
 	
 	default void setMute(boolean mute) { // public 생략 가능, 인터페이스의 default메소드 , 접근제한자와는 완전 다르다.
