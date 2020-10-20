@@ -6,6 +6,6 @@ public class NestedClassExample {
 		
 		Car.Tire tire = myCar. new Tire();
 				
-		Car.Engine engine = new Car.Engine();
+		Car.Engine engine = new Car.Engine(); // static은 바깥 클래스에 바로 접근하여 생성
 	}
 }

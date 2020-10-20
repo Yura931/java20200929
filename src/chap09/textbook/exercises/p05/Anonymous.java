@@ -11,7 +11,7 @@ public class Anonymous {
 	};
 	
 	void method1() {
-		Vehicle localVar = new Vehicle() {
+		Vehicle localVar = new Vehicle() { // 클래스 정의를 instance 만들며 같이 만듬
 			
 			@Override
 			public void run() {

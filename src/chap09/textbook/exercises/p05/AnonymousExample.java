@@ -5,7 +5,7 @@ public class AnonymousExample {
 		Anonymous anony = new Anonymous();
 		anony.field.run();
 		anony.method1();
-		anony.method2(new Vehicle() {
+		anony.method2(new Vehicle() { // 익명 클래스의 객체
 			@Override
 			public void run() {
 				System.out.println("트럭이 달립니다.");
