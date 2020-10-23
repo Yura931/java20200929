@@ -2,11 +2,11 @@ package chap13.lecture.textbook.exercises.p2;
 
 public class Container<T> {
 
-	private T t;
+	private T value;
 	public T get() {
-		return t;
+		return value;
 	}
-	public void set(T t) {
-		this.t = t;
+	public void set(T value) {
+		this.value = value;
 	}
 }
