@@ -15,6 +15,6 @@ public class SetEx2otto {
 	}
 	
 	public static int getNumer() {
-		return (int) (Math.random() *45) +!;
+		return (int) (Math.random() *45) +1;
 	}
 }
