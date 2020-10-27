@@ -1,15 +1,17 @@
 package chap15.textbook.exercises.p07;
 
-import java.util.ArrayList;
 import java.util.List;
+import java.util.Vector;
 
 public class BoardDao {
 
 	public List<Board> getBoardList() {
-		List<Board>list = new ArrayList<>();
+		List<Board>list = new Vector<>();
 		
-		List.add(new Board("제목1", "내용1"));
-		List.add(new Board("제목2", "내용2"));
-		List.add(new Board("제목3", "내용3"));
+		list.add(new Board("제목1", "내용1"));
+		list.add(new Board("제목2", "내용2"));
+		list.add(new Board("제목3", "내용3"));
+		
+		return list;
 	}
 }

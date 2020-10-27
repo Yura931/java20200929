@@ -8,12 +8,12 @@ public class GenericEx1 {
 		o1.method2("java");
 		o1.method2(300);
 		
-		MyClass<String> o2 = new MyClass<>(); // new연산자 뒤 <T>는 생략 가능
+		MyClass<String> o2 = new MyClass<>();
 		o2.method1();
 		o2.method2("java");
-//		o2.method2(new Object()); Object!=String
+//		o2.method2(new Object());
 		
-		MyClass<Integer> o3 = new MyClass<>();
+		MyClass<Integer> o3 = new MyClass<Integer>();
 		o3.method2(100);
 //		o3.method2("java");
 	}

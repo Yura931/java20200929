@@ -13,6 +13,6 @@ public class Board {
 		return title;
 	}
 	public String getContent() {
-		
+		return content;
 	}
 }
