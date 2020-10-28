@@ -7,20 +7,22 @@ public class Num10871 {
 		Scanner sc = new Scanner(System.in);
 		
 		int n = sc.nextInt();
+		int x = sc.nextInt();
 		int arr[] = new int [n];
 		
-		int x = sc.nextInt();
 		
 		
 		
-		for (int i = 1; i <= arr.length; i++) {
-			System.out.println(i);
-			int sum = arr[i];
+		for (int i = 0; i < n; i++) {
+				arr[i] = sc.nextInt();
+		}
 			
-			if (x < sum) {
-			
+		sc.close();
+		
+		for (int i = 0; i < n; i++) {
+			if (arr[i] < x) {
+				System.out.println(arr[i] + " ");
 			}
-			System.out.println(sum);
 		} 				
 	}
 }
