@@ -1,6 +1,6 @@
 package codingbat.warmup_1;
 
-public class Diff21 {
+public class N04_diff21 {
 
 	public static int diff21(int n) {
 		int diff = 21 - n;

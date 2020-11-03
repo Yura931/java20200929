@@ -1,6 +1,6 @@
 package codingbat.warmup_1;
 
-public class SumDouble {
+public class N03_sumDouble {
 	public static int sumDouble(int a, int b) {
 		 int sum = 0;
 		 

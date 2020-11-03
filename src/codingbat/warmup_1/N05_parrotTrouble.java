@@ -1,8 +1,13 @@
 package codingbat.warmup_1;
 
-public class ParrotTrouble {
+public class N05_parrotTrouble {
 	public static boolean parrotTrouble(boolean talking, int hour) {
-		return true;
+		boolean h = hour < 7 || hour > 20;
+		
+		if (talking) {
+			return h;
+		}
+		return false;
 	}
 	
 	public static void main(String[] args) {
