@@ -2,7 +2,10 @@ package codingbat.warmup_1;
 
 public class N13_backAround {
 	public static String backAround(String str) {
-		return str;
+		int len = str.length();
+		String back = str.substring(len-1);
+		
+		return back + str + back;
 	}
 	
 	public static void main(String[] args) {
