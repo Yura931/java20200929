@@ -10,7 +10,6 @@ public class MapEx1 {
 		// dictionary
 		
 		Map<Integer, String> map = new HashMap<>();
-		
 		// 추가(입력)
 		map.put(100, "kim");
 		map.put(30, "hong");
@@ -47,4 +46,5 @@ public class MapEx1 {
 		}
 		
 	}
+
 }
