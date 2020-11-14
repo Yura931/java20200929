@@ -13,11 +13,7 @@ public class ThrowsEx1 { // main() 메소드에서도 throws 키워드를 사용
 	}
 	
 	public static void method2() throws ClassNotFoundException {
-		try {
-			method3();
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		}
+		method3();
 	}
 	
 	public static void method3() throws ClassNotFoundException, FileNotFoundException{
