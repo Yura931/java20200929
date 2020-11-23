@@ -6,13 +6,11 @@ public class N02_frontTimes {
 		String res = "";
 		int len = str.length();
 		
-		if (len > 3) {
-			String f = str.substring(0,3);
-			for (int i = 0; i < n; i++) {
-				res += f;
-			}
-		} else {
-			for (int i = 0; i < n; i++) {
+		for (int i = 0; i < n; i++) {
+			if (len >= 3) {
+				String sub3 = str.substring(0,3);
+				res += sub3;
+			} else {
 				res += str;
 			}
 		}
