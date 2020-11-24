@@ -15,6 +15,7 @@ public class Num1110 {
 		
 		while(true) {
 			N = ((N % 10) * 10) + (((N / 10) + (N % 10)) % 10);
+			
 			cnt++;
 			
 			if (copy == N) {
