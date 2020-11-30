@@ -1,6 +1,6 @@
 package codingbat.warmup_2;
 
-public class N12_has271 {
+public class N17_has271 {
 	
 	public static boolean has271(int[] nums) {
 		for (int i = 0; i < nums.length; i++) {

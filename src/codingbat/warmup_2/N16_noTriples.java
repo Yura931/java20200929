@@ -1,6 +1,6 @@
 package codingbat.warmup_2;
 
-public class N11_noTriples {
+public class N16_noTriples {
 	
 	public static boolean noTriples(int[] nums ) {
 		int last = nums.length -2;

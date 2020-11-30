@@ -1,6 +1,6 @@
 package codingbat.warmup_2;
 
-public class N09_array667 {
+public class N15_array667 {
 	
 	public static int array667(int[] nums) {
 		int arr1[] = null;
