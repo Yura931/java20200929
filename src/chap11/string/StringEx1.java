@@ -64,7 +64,12 @@ public class StringEx1 {
 		System.out.println(str12);
 		// 중간 공백은 제거하지 못함.
 		
-		
+		System.out.println("-------------");
+		// startWith : 시작하는 문자 판단
+		String str13 = "abc";
+		boolean st = str13.startsWith("a");
+		System.out.println(str13);
+		System.out.println(st);
 	}
 	
 }
